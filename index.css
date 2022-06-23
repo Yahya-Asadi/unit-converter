@@ -1,0 +1,100 @@
+body {
+  background: #1c1c1c;
+  margin: 0px;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+
+footer {
+  color: #ccc1ff;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 36px;
+  padding-bottom: 6px;
+}
+
+.container {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input {
+  margin: 0;
+  background: #6943ff;
+
+  padding: 0;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+#input-el {
+  font-family: Inter;
+  max-width: 109px;
+  border-radius: 5px;
+  background-color: #6943ff;
+  border: 2px solid #b295ff;
+  color: #fff;
+  font-size: 58px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 30px;
+}
+
+#convert-btn {
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  color: #3d3d3d;
+  font-size: 16px;
+  padding: 9px 27.5px;
+  margin-bottom: 34px;
+}
+
+.calc {
+  margin: 0;
+  background: #1f2937;
+  padding: 0;
+}
+
+.conversion {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 500px;
+  background: #273549;
+  margin-top: 20px;
+  border-radius: 5px 0 0 0;
+}
+
+.conversion-header {
+  color: #ccc1ff;
+  padding-top: 31px;
+  padding-bottom: 9px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.conversion-paragraph {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 18px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
